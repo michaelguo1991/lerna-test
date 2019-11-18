@@ -1,5 +1,5 @@
 {
-  "name": "my-lerna-second",
+  "name": "@michaelguo/my-lerna-second",
   "version": "0.0.2",
   "description": "my lerna second",
   "main": "index.js",
@@ -12,8 +12,8 @@
   "author": "guoxf",
   "license": "ISC",
   "dependencies": {
-    "my-lerna-first": "^0.0.2",
+    "@michaelguo/my-lerna-first": "^0.0.2",
     "typescript": "^3.7.2"
   },
-  "gitHead": "8af99af138864cc59c05cbcbb3be899dafe37845"
+  "gitHead": "82653d028080e03ddcc2e3eda911053455fd6404"
 }

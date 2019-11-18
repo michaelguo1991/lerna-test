@@ -1,5 +1,5 @@
 {
-  "name": "my-lerna-first",
+  "name": "@michaelguo/my-lerna-first",
   "version": "0.0.2",
   "description": "",
   "main": "index.js",
@@ -11,5 +11,5 @@
   "dependencies": {
     "typescript": "^3.7.2"
   },
-  "gitHead": "8af99af138864cc59c05cbcbb3be899dafe37845"
+  "gitHead": "82653d028080e03ddcc2e3eda911053455fd6404"
 }
