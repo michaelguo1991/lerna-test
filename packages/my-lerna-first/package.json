@@ -10,5 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "typescript": "^3.7.2"
-  }
+  },
+  "gitHead": "8af99af138864cc59c05cbcbb3be899dafe37845"
 }
