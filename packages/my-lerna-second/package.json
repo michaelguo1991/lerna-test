@@ -1,0 +1,18 @@
+{
+  "name": "my-lerna-second",
+  "version": "0.0.0",
+  "description": "my lerna second",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "lerna"
+  ],
+  "author": "guoxf",
+  "license": "ISC",
+  "dependencies": {
+    "my-lerna-first": "^0.0.1",
+    "typescript": "^3.7.2"
+  }
+}
