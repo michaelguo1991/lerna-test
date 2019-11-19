@@ -1,5 +1,5 @@
 export function test() {
-  console.log('test');
+  console.log('test 11331');
 }
 
 export function print(str) {

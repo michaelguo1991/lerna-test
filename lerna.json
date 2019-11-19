@@ -8,8 +8,10 @@
         "ignored-file",
         "*.md"
       ],
-      "message": "chore(release): publish"
+      "message": "chore(release): %s"
     }
   },
-  "version": "0.0.6"
+  "version": "independent",
+  "npmClient": "yarn",
+  "useWorkspaces": true
 }
