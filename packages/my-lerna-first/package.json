@@ -6,10 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "guoxf",
+  "license": "MIT",
   "dependencies": {
     "typescript": "^3.7.2"
+  },
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michaelguo1991/lerna-test/tree/master/packages/my-lerna-first"
   },
   "publishConfig": {
     "access": "public"

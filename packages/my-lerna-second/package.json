@@ -10,10 +10,17 @@
     "lerna"
   ],
   "author": "guoxf",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@michaelguo/my-lerna-first": "^0.0.5",
     "typescript": "^3.7.2"
+  },
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michaelguo1991/lerna-test/tree/master/packages/my-lerna-second"
   },
   "publishConfig": {
     "access": "public"
