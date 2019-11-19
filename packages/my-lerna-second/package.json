@@ -16,7 +16,7 @@
     "typescript": "^3.7.2"
   },
   "publishConfig": {
-    "access": "publish"
+    "access": "public"
   },
-  "gitHead": "3db856b83b94856e38b894946580ae11a6e9ac0d"
+  "gitHead": "f927935dc698e7610cb0bff153484a8a8bde2468"
 }
