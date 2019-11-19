@@ -15,5 +15,8 @@
     "@michaelguo/my-lerna-first": "^0.0.3",
     "typescript": "^3.7.2"
   },
-  "gitHead": "82653d028080e03ddcc2e3eda911053455fd6404"
+  "publishConfig": {
+    "access": "publish"
+  },
+  "gitHead": "3db856b83b94856e38b894946580ae11a6e9ac0d"
 }
