@@ -1,6 +1,6 @@
 {
   "name": "@michaelguo/my-lerna-second",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "my lerna second",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
   "author": "guoxf",
   "license": "ISC",
   "dependencies": {
-    "@michaelguo/my-lerna-first": "^0.0.4",
+    "@michaelguo/my-lerna-first": "^0.0.5",
     "typescript": "^3.7.2"
   },
   "publishConfig": {
