@@ -1,4 +1,4 @@
-# Using EnOS Device SDK for MQTT for Node 
+# Using Device SDK for MQTT for Node 
 
 * [安装](#安装)
 
@@ -43,13 +43,13 @@
 使用`npm install`命令安装：
 
 ```bash
-$ npm install --save enos-iot-node-sdk
+$ npm install --save iot-node-sdk
 ```
 
 ## 快速开始
 
 ```javascript
-const {MqttDeviceClient} = require('@enos/enos-iot-node-sdk');
+const {MqttDeviceClient} = require('iot-node-sdk');
 
 // 实例化client
 const clientOptions = {
