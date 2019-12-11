@@ -1,39 +1,24 @@
 # Using Device SDK for MQTT for Node 
 
 * [安装](#安装)
-
 * [快速开始](#快速开始)
-
 * [功能列表](#功能列表)
-
 * [代码示例](#代码示例)
-
 * [API](#API)
-
   * [DeviceInfo](#DeviceInfo)
-
   * [SubDeviceInfo](#SubDeviceInfo)
-
   * [SECURE_MODE](#SECURE_MODE)
-
   * [MqttDeviceClient](#MqttDeviceClient)
-
     * [属性](#属性)
     * [Event](#event-connect)
     * [Contructor](#constructor)
     * [open](#promise-open)
     * [close](#promise-close)
-
     设备数据上报相关
-
     * [deviceData.queryTag()](#queryTag)
-
     接收云端指令相关
-
     * deviceCommand.onInvokeService()
-
   * [MqttGatewayClient](#MqttGatewayClient)
-
 * License
 
 ## 安装
