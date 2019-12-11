@@ -264,6 +264,8 @@ client.open()
   })
 ```
 
+---
+
 ##### close()
 
 ```typescript
