@@ -1,0 +1,26 @@
+{
+  "name": "@michaelguo/my-lerna-third",
+  "version": "1.0.0-alpha.4",
+  "description": "my lerna second",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "BABEL_ENV=build babel --root-mode upward src --out-dir dist --watch --source-maps --extensions .ts,.tsx --delete-dir-on-start"
+  },
+  "keywords": [
+    "lerna"
+  ],
+  "author": "guoxf",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michaelguo1991/lerna-test/tree/master/packages/my-lerna-second"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "f927935dc698e7610cb0bff153484a8a8bde2468"
+}
