@@ -1,3 +1,3 @@
 export const a = 3;
 
-console.log('test 2222');
+console.log('test 3333');
