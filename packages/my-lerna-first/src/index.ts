@@ -1,7 +1,5 @@
-export function test() {
-  console.log('test 11331');
-}
+import assert from 'assert';
 
-export function print(str) {
-  console.log('print str: ', str);
-}
+export const a = 3;
+
+console.log('test 222');

@@ -1,8 +1,8 @@
 {
   "name": "@michaelguo/my-lerna-second",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "description": "my lerna second",
-  "main": "dist/index.js",
+  "main": "src/index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "BABEL_ENV=build babel --root-mode upward src --out-dir dist --watch --source-maps --extensions .ts,.tsx --delete-dir-on-start"
@@ -12,9 +12,6 @@
   ],
   "author": "guoxf",
   "license": "MIT",
-  "dependencies": {
-    "@michaelguo/my-lerna-first": "file:../my-lerna-first"
-  },
   "engines": {
     "node": ">= 8.0.0"
   },
@@ -25,5 +22,8 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "f927935dc698e7610cb0bff153484a8a8bde2468"
+  "gitHead": "f927935dc698e7610cb0bff153484a8a8bde2468",
+  "dependencies": {
+    "@michaelguo/my-lerna-first": "^0.0.8"
+  }
 }

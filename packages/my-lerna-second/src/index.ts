@@ -1,6 +1,4 @@
-import {print} from '@michaelguo/my-lerna-first';
-import {} from 'lodash';
+import {a} from '@michaelguo/my-lerna-first';
 
-print('test33444');
-
+console.log(a);
 console.log('lerna second');

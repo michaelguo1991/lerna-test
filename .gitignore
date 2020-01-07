@@ -31,3 +31,4 @@ target/
 .classpath
 dist/
 build/
+.DS_Store

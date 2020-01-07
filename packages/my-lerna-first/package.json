@@ -1,8 +1,8 @@
 {
   "name": "@michaelguo/my-lerna-first",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "description": "",
-  "main": "dist/index.js",
+  "main": "src/index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "BABEL_ENV=build babel --root-mode upward src --out-dir dist --watch --source-maps --extensions .ts,.tsx --delete-dir-on-start"

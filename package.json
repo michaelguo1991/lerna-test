@@ -27,11 +27,10 @@
     "eslint-plugin-react": "^7.16.0",
     "lerna": "^3.18.4",
     "lodash": "^4.17.15",
+    "ts-node": "^8.5.4",
     "typescript": "^3.7.2"
   },
   "dependencies": {
-    "@michaelguo/my-lerna-first": "file:packages/my-lerna-first",
-    "@michaelguo/my-lerna-second": "file:packages/my-lerna-second",
     "confusing-browser-globals": "^1.0.9"
   }
 }
