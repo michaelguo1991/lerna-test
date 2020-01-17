@@ -3,9 +3,14 @@
   "version": "3.0.0",
   "description": "my lerna second",
   "main": "src/index.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "BABEL_ENV=build babel --root-mode upward src --out-dir dist --watch --source-maps --extensions .ts,.tsx --delete-dir-on-start"
+    "dev": "BABEL_ENV=build babel --root-mode upward src --out-dir lib --watch --source-maps --extensions .ts,.tsx --delete-dir-on-start",
+    "build": "BABEL_ENV=build babel --root-mode upward src --out-dir dist --extensions .ts,.tsx --delete-dir-on-start",
+    "prepublish": "npm run build"
   },
   "keywords": [
     "lerna"
