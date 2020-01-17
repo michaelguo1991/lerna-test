@@ -1,6 +1,6 @@
 {
   "name": "@michaelguo/my-lerna-second",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "my lerna second",
   "main": "src/index.ts",
   "files": [
@@ -29,7 +29,7 @@
   },
   "gitHead": "74f20d7662be90abf4b5a85e9a745fe756c4886b",
   "dependencies": {
-    "@michaelguo/my-lerna-first": "^3.0.1"
+    "@michaelguo/my-lerna-first": "^3.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.8.3"
