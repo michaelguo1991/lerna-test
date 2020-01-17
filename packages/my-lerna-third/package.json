@@ -1,6 +1,6 @@
 {
   "name": "@michaelguo/my-lerna-third",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "description": "my lerna second",
   "main": "dist/index.ts",
   "files": [
