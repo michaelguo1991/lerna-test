@@ -24,8 +24,9 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "74f20d7662be90abf4b5a85e9a745fe756c4886b",
+  "gitHead": "a8cc5958819e8bbabb586eb48ffce940a0d05fe6",
   "devDependencies": {
+    "@babel/cli": "^7.8.3",
     "@babel/core": "^7.8.3"
   }
 }
