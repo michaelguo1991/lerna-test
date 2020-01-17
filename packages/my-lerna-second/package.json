@@ -2,7 +2,7 @@
   "name": "@michaelguo/my-lerna-second",
   "version": "3.0.3",
   "description": "my lerna second",
-  "main": "src/index.ts",
+  "main": "dist/index.ts",
   "files": [
     "dist"
   ],
